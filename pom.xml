@@ -10,12 +10,14 @@
 
 
     <dependencies>
+
         <!-- https://mvnrepository.com/artifact/com.itextpdf/itext7-core -->
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>itext7-core</artifactId>
-            <version>7.2.4</version>
+            <version>7.0.4</version>
             <type>pom</type>
+<!--            7.0.4 only have add String element on .addcell-->
         </dependency>
 
     </dependencies>
